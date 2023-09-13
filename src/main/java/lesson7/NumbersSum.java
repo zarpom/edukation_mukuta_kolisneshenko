@@ -25,9 +25,19 @@ public class NumbersSum {
 //        }
 ////
 //        System.out.println(sum);
-        System.out.println(Math.pow(2, 3));
+//        System.out.println(Math.pow(2, 3));
+//        int a = 1;
+//        System.out.println(a=1);
 
 
+        int number = 12;
+        int sum = 0;
+
+        while (number != 0) {
+            sum += number;
+            --number;
+        }
+        System.out.println(sum);
 
     }
 

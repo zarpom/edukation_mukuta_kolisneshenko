@@ -12,7 +12,7 @@ public class Main {
         var eps = 0.6;
         int i = 2;
 
-        while ((1d / i) > eps){
+        while ((1d / i) > eps) {
             double dod = 1d / i;
             number += dod;
             i *= 2;
